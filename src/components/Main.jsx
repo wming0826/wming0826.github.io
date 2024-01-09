@@ -13,7 +13,7 @@ const Main = () => {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-center"
-        src="./wming0826.github.io/Ming_old_ps_2_169_3.jpg"
+        src="/Ming_old_ps_2_169_3.jpg"
         loading="lazy"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
