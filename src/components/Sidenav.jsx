@@ -4,10 +4,10 @@ import { AiOutlineMenu, AiOutlineHome, AiOutlineMail } from "react-icons/ai";
 //import { BsPerson } from "react-icons/bs";
 import { MdOutlineViewTimeline } from "react-icons/md";
 import { HiOutlineSquares2X2 } from "react-icons/hi2";
-import { IoImageOutline } from "react-icons/io5";
+// import { IoImageOutline } from "react-icons/io5";
 
 const Sidenav = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false); //show mobile nav
   const handleNav = () => {
     setNav(!nav);
     //console.log(nav);
@@ -72,31 +72,31 @@ const Sidenav = () => {
         <div className="flex flex-col ml-5 py-4 px-1">
           <a
             href="#main"
-            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-100"
+            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-200"
           >
             <AiOutlineHome size={20} />
           </a>
           <a
             href="#work"
-            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-100"
+            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-200"
           >
             <MdOutlineViewTimeline size={20} />
           </a>
           <a
             href="#project"
-            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-100"
+            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-200"
           >
             <HiOutlineSquares2X2 size={20} />
           </a>
           {/* <a
             href="#gallery"
-            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-100"
+            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-200"
           >
             <IoImageOutline size={20} />
           </a> */}
           <a
             href="#contact"
-            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-100"
+            className="rounded-full shadow-lg bg-stone-100 m-2 p-4 cursor-pointer hover:bg-gray-800 hover:text-white hover:rounded-2xl hover:scale-110 transition-all ease-linear duration-200"
           >
             <AiOutlineMail size={20} />
           </a>
